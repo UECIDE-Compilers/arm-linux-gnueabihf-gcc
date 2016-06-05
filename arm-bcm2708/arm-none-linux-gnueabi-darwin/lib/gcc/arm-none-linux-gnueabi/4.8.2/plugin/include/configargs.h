@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/Volumes/xtools-build-env/.build/src/gcc-linaro-4.8-2013.06-1/configure --build=x86_64-build_apple-darwin13.0.0 --host=x86_64-build_apple-darwin13.0.0 --target=arm-none-linux-gnueabi --prefix=/Volumes/xtools/arm-none-linux-gnueabi --with-sysroot=/Volumes/xtools/arm-none-linux-gnueabi/arm-none-linux-gnueabi/sysroot --enable-languages=c,c++ --with-arch=armv6j --with-tune=arm1176jzf-s --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG 1.19.0' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/Volumes/xtools-build-env/.build/arm-none-linux-gnueabi/buildtools --with-mpfr=/Volumes/xtools-build-env/.build/arm-none-linux-gnueabi/buildtools --with-mpc=/Volumes/xtools-build-env/.build/arm-none-linux-gnueabi/buildtools --with-ppl=no --with-isl=no --with-cloog=no --with-libelf=no --enable-threads=posix --enable-target-optspace --disable-nls --disable-multilib --with-local-prefix=/Volumes/xtools/arm-none-linux-gnueabi/arm-none-linux-gnueabi/sysroot --enable-c99 --enable-long-long";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "arch", "armv6j" }, { "tune", "arm1176jzf-s" }, { "float", "hard" }, { "fpu", "vfp" }, { "tls", "gnu" } };

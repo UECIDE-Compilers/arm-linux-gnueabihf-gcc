@@ -1,0 +1,2 @@
+This file indicates a portable SmarTTY package.
+If you remove it, SmarTTY will store all settings in your %APPDATA% folder.

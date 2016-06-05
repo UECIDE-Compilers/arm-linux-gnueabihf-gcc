@@ -1,0 +1,5 @@
+
+[testing]
+pytest
+scripttest>=1.3
+mock

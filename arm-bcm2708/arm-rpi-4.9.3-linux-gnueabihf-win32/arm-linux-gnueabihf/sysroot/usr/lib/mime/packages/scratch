@@ -1,0 +1,1 @@
+application/x-scratch-project; scratch %s; test=test "$DISPLAY" != ""; description=Scratch Application; nametemplate=%s.sb; priority=6

@@ -1,0 +1,1 @@
+ PortableSmartty\SmarTTY.exe /UpdateSysroot:..\arm-linux-gnueabihf\sysroot

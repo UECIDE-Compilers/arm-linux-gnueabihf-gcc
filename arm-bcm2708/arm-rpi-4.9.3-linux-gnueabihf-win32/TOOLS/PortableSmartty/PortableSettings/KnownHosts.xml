@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ArrayOfKnownHostKey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <KnownHostKey>
+    <HostName>raspberrypi</HostName>
+    <KeyType>ssh-rsa</KeyType>
+    <KeyBase64>AAAAB3NzaC1yc2EAAAADAQABAAABAQC4ExP9/qBl0KJ2shFucMfRwyhHWevwWb0VBxqmr+pboS3AFqclKV9qkMj2xrgqYE3zv38mwRySpmC/8DFvyDLL4U10MZVNBQ7IVN2274tyI1OeZwYbuOG3XiJ3Y4Zs4/3y0cQzNpjKBXA06SRgB4AFvL5wRlvpIq5b8wn2PIXNgmo1mVueMGzAWdof1F526gkpa2CKO3waP4wLOw/eE+3DE04Svj8RyjgQ5opjmPYdXln2l3im96RFRU0Cv7mwiQKlKW0MdWmRdO3ONrMY5yT9n8tCoZ05kt+LeyXFvHNSTrO7Di+LCzlRRwX8smgdTPpXL4OJxlVCEsurZhItN4BJ</KeyBase64>
+  </KnownHostKey>
+</ArrayOfKnownHostKey>

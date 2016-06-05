@@ -1,0 +1,15 @@
+
+
+[test]
+pytest
+mock
+Pillow
+numpy
+
+[doc]
+sphinx
+Jinja2<2.7
+MarkupSafe<0.16
+
+[array]
+numpy

@@ -1,0 +1,462 @@
+arm-linux-gnueabihf-gcc (4.8.3-9p6) uecide; urgency=low
+
+  * Remove the knlinfo and mkknlimg tools
+
+ -- Phil Elwell <phil@raspberrypi.org>  Wed, 18 May 2016 09:26:03 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-9p5) uecide; urgency=low
+
+  * stubs: Zero kernel and dtb address in stubs
+
+ -- Phil Elwell <phil@raspberrypi.org>  Mon, 18 Apr 2016 12:56:42 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-9p4) uecide; urgency=low
+
+  * Merge pull request #55 from swarren/armstub8_magic_layout
+
+ -- popcornmix <popcornmix@gmail.com>  Tue, 12 Apr 2016 11:48:20 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-9p3) uecide; urgency=low
+
+  * armstub8: mem layout changes to match latest FW interface
+
+ -- Stephen Warren <swarren@wwwdotorg.org>  Fri, 8 Apr 2016 22:56:02 -0600
+
+arm-linux-gnueabihf-gcc (4.8.3-9p2) uecide; urgency=low
+
+  * stubs: Update to new layout with atags and start address at end of block
+
+ -- popcornmix <popcornmix@gmail.com>  Fri, 8 Apr 2016 17:06:29 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-9p1) uecide; urgency=low
+
+  * Merge pull request #54 from swarren/armstub8_cntfrq_192
+
+ -- popcornmix <popcornmix@gmail.com>  Thu, 7 Apr 2016 12:52:36 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-9p0) uecide; urgency=low
+
+  * armstub8: Set address of .text section not .init
+
+ -- Stephen Warren <swarren@wwwdotorg.org>  Wed, 6 Apr 2016 21:51:50 -0600
+
+arm-linux-gnueabihf-gcc (4.8.3-8p9) uecide; urgency=low
+
+  * armstub8: Set up arch timer prescaler for 19.2MHz CNTFRQ
+
+ -- Stephen Warren <swarren@wwwdotorg.org>  Wed, 6 Apr 2016 21:36:02 -0600
+
+arm-linux-gnueabihf-gcc (4.8.3-8p8) uecide; urgency=low
+
+  * Merge pull request #53 from swarren/armstub-fixes
+
+ -- popcornmix <popcornmix@gmail.com>  Wed, 6 Apr 2016 15:39:37 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-8p7) uecide; urgency=low
+
+  * Add .gitignore files
+
+ -- Stephen Warren <swarren@wwwdotorg.org>  Tue, 5 Apr 2016 22:51:00 -0600
+
+arm-linux-gnueabihf-gcc (4.8.3-8p6) uecide; urgency=low
+
+  * Spin table and kernel load address enhancements
+
+ -- Stephen Warren <swarren@wwwdotorg.org>  Tue, 5 Apr 2016 22:49:42 -0600
+
+arm-linux-gnueabihf-gcc (4.8.3-8p5) uecide; urgency=low
+
+  * Add arm boot stub files and makefile for building the bin files and the embedded firmware files
+
+ -- popcornmix <popcornmix@gmail.com>  Mon, 4 Apr 2016 23:20:01 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-8p4) uecide; urgency=low
+
+  * Add CM3 support
+
+ -- Gordon Hollingworth <gordon@raspberrypi.org>  Fri, 11 Mar 2016 16:28:04 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-8p3) uecide; urgency=low
+
+  * Add custom ct-ng build of gcc 4.9.3 with Pi 1 support
+
+ -- popcornmix <popcornmix@gmail.com>  Mon, 15 Feb 2016 20:25:24 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-8p2) uecide; urgency=low
+
+  * Revert "Add linaro 4.9.3 tools"
+
+ -- popcornmix <popcornmix@gmail.com>  Mon, 15 Feb 2016 20:17:38 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-8p1) uecide; urgency=low
+
+  * Add linaro 4.9.3 tools
+
+ -- popcornmix <popcornmix@gmail.com>  Sun, 14 Feb 2016 14:57:27 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-8p0) uecide; urgency=low
+
+  * Update mkknlimg and knlinfo from the rpi-4.0.y kernel
+
+ -- Phil Elwell <phil@raspberrypi.org>  Tue, 2 Jun 2015 12:37:15 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-7p9) uecide; urgency=low
+
+  * mkknlimg: Enable warnings and fix a few uses of undef'd variables
+
+ -- Phil Elwell <phil@raspberrypi.org>  Mon, 11 May 2015 09:14:44 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-7p8) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/raspberrypi/tools
+
+ -- James Adams <james@raspberrypi.org>  Thu, 2 Apr 2015 11:07:16 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-7p7) uecide; urgency=low
+
+  * Update to run under Cygwin
+
+ -- James Adams <james@raspberrypi.org>  Thu, 2 Apr 2015 11:06:53 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-7p6) uecide; urgency=low
+
+  * Merge pull request #24 from diegoherranz/master
+
+ -- ghollingworth <gordon@raspberrypi.org>  Fri, 13 Mar 2015 13:09:41 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-7p5) uecide; urgency=low
+
+  * Merge pull request #32 from ali1234/master
+
+ -- ghollingworth <gordon@raspberrypi.org>  Fri, 13 Mar 2015 13:08:24 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-7p4) uecide; urgency=low
+
+  * Fix rpiboot command example.
+
+ -- Alistair Buxton <a.j.buxton@gmail.com>  Fri, 13 Mar 2015 01:07:22 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-7p3) uecide; urgency=low
+
+  * Fix warning on printf format specifier.
+
+ -- Alistair Buxton <a.j.buxton@gmail.com>  Fri, 13 Mar 2015 01:07:15 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-7p2) uecide; urgency=low
+
+  * mkknlimg,knlinfo: Add copyright and licence banners
+
+ -- Phil Elwell <phil@raspberrypi.org>  Mon, 16 Feb 2015 11:41:39 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-7p1) uecide; urgency=low
+
+  * Merge remote-tracking branch 'upstream/master'
+
+ -- Diego Herranz <diegoherranz@diegoherranz.com>  Wed, 11 Feb 2015 15:52:11 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-7p0) uecide; urgency=low
+
+  * mkknlimg: Add support for lz4-compressed kernels
+
+ -- Phil Elwell <phil@raspberrypi.org>  Mon, 19 Jan 2015 12:35:13 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-6p9) uecide; urgency=low
+
+  * Merge pull request #27 from yann-morin-1998/yem/mkknlimg
+
+ -- Phil Elwell <pelwell@users.noreply.github.com>  Fri, 9 Jan 2015 17:22:21 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-6p8) uecide; urgency=low
+
+  * mkimage/mkknlimg: restore --dtok
+
+ -- Yann E. MORIN <yann.morin.1998@free.fr>  Fri, 9 Jan 2015 18:14:39 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-6p7) uecide; urgency=low
+
+  * Merge pull request #26 from tmcolby/master
+
+ -- ghollingworth <gordon@raspberrypi.org>  Tue, 6 Jan 2015 08:13:23 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-6p6) uecide; urgency=low
+
+  * Update main.c
+
+ -- tmcolby <tyson.junk@gmail.com>  Mon, 5 Jan 2015 13:51:56 -0800
+
+arm-linux-gnueabihf-gcc (4.8.3-6p5) uecide; urgency=low
+
+  * mkknlimg: Fix for bcm2708-pinctrl removal and unxz breakage
+
+ -- Phil Elwell <phil@raspberrypi.org>  Mon, 5 Jan 2015 14:08:23 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-6p4) uecide; urgency=low
+
+  * Merge pull request #25 from yann-morin-1998/yem/mkkknlimg
+
+ -- popcornmix <popcornmix@gmail.com>  Thu, 1 Jan 2015 17:25:16 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-6p3) uecide; urgency=low
+
+  * mkimage/mkknlimg: fix for XZ-compressed kernels
+
+ -- Yann E. MORIN <yann.morin.1998@free.fr>  Thu, 1 Jan 2015 16:28:46 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-6p2) uecide; urgency=low
+
+  * mkknimg: look harder for evidence of DT support and add '--dtok' override
+
+ -- popcornmix <popcornmix@gmail.com>  Wed, 3 Dec 2014 15:51:12 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-6p1) uecide; urgency=low
+
+  * Scripts for adding an atom to end of kernel image and for parsing that atom
+
+ -- Phil Elwell <phil@raspberrypi.org>  Thu, 27 Nov 2014 14:51:23 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-6p0) uecide; urgency=low
+
+  * Merge remote-tracking branch 'upstream/master'
+
+ -- Diego Herranz <diegoherranz@diegoherranz.com>  Thu, 13 Nov 2014 15:04:51 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-5p9) uecide; urgency=low
+
+  * Make sure EMMC_DISABLE gpio on GPIO47 is driven low
+
+ -- Gordon Hollingworth <gordon@fiveninjas.com>  Tue, 11 Nov 2014 17:50:20 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-5p8) uecide; urgency=low
+
+  * usbboot: Add uninstall target to Makefile plus .PHONY targets.
+
+ -- Diego Herranz <diegoherranz@diegoherranz.com>  Tue, 11 Nov 2014 16:36:30 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-5p7) uecide; urgency=low
+
+  * usbboot: Use "%ld" in printf for ftell return value (long int).
+
+ -- Diego Herranz <diegoherranz@diegoherranz.com>  Tue, 11 Nov 2014 16:35:46 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-5p6) uecide; urgency=low
+
+  * Test code system to test a compute module system using a Raspberry Pi
+
+ -- Gordon Hollingworth <gordon@fiveninjas.com>  Fri, 7 Nov 2014 18:02:54 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-5p5) uecide; urgency=low
+
+  * Add buildroot.elf installation and cmdline parameters
+
+ -- Gordon Hollingworth <gordon@fiveninjas.com>  Fri, 7 Nov 2014 16:42:34 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-5p4) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/raspberrypi/tools
+
+ -- Gordon Hollingworth <gordon@raspberrypi.org>  Thu, 30 Oct 2014 13:51:21 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-5p3) uecide; urgency=low
+
+  * Change the 2nd stage to download the data over USB2.0 This accelerates the download of code 10x
+
+ -- Gordon Hollingworth <gordon@raspberrypi.org>  Thu, 30 Oct 2014 13:49:16 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-5p2) uecide; urgency=low
+
+  * Change buildroot config name
+
+ -- ghollingworth <gordon@raspberrypi.org>  Wed, 29 Oct 2014 19:18:22 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-5p1) uecide; urgency=low
+
+  * Update to reflect renamed .elf file
+
+ -- ghollingworth <gordon@raspberrypi.org>  Wed, 29 Oct 2014 18:45:25 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-5p0) uecide; urgency=low
+
+  * Fix markup
+
+ -- ghollingworth <gordon@raspberrypi.org>  Wed, 29 Oct 2014 11:16:02 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-4p9) uecide; urgency=low
+
+  * Add usb boot from buildroot image
+
+ -- Gordon Hollingworth <gordon@raspberrypi.org>  Tue, 28 Oct 2014 15:58:41 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-4p8) uecide; urgency=low
+
+  * Add installation target to makefile
+
+ -- Gordon Hollingworth <gordon@raspberrypi.org>  Wed, 8 Oct 2014 17:16:04 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-4p7) uecide; urgency=low
+
+  * Merge pull request #19 from diegoherranz/master
+
+ -- ghollingworth <gordon@raspberrypi.org>  Tue, 9 Sep 2014 13:16:44 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-4p6) uecide; urgency=low
+
+  * Add reference to Compute Module in USB boot Readme
+
+ -- Diego Herranz <diegoherranz@diegoherranz.com>  Wed, 23 Jul 2014 15:33:48 +0200
+
+arm-linux-gnueabihf-gcc (4.8.3-4p5) uecide; urgency=low
+
+  * Merge pull request #18 from diegoherranz/master
+
+ -- popcornmix <popcornmix@gmail.com>  Tue, 22 Jul 2014 14:52:29 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-4p4) uecide; urgency=low
+
+  * Fix USB boot code build instructions
+
+ -- Diego Herranz <diegoherranz@diegoherranz.com>  Tue, 22 Jul 2014 15:40:50 +0200
+
+arm-linux-gnueabihf-gcc (4.8.3-4p3) uecide; urgency=low
+
+  * Merge pull request #16 from lurch/patch-1
+
+ -- popcornmix <popcornmix@gmail.com>  Sat, 12 Jul 2014 11:35:22 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-4p2) uecide; urgency=low
+
+  * Fix typo
+
+ -- Andrew Scheller <github@loowis.durge.org>  Sat, 12 Jul 2014 10:27:36 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-4p1) uecide; urgency=low
+
+  * Rebuild of x64 tools with gdb fixed to be 64-bit build
+
+ -- popcornmix <popcornmix@gmail.com>  Thu, 8 May 2014 14:14:14 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-4p0) uecide; urgency=low
+
+  * Oops...  Forgot closing brace!
+
+ -- ghollingworth <gordon@raspberrypi.org>  Wed, 16 Apr 2014 15:53:11 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-3p9) uecide; urgency=low
+
+  * Exit from program when you program it
+
+ -- ghollingworth <gordon@raspberrypi.org>  Wed, 16 Apr 2014 13:55:59 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-3p8) uecide; urgency=low
+
+  * Add latest 64-bit linaro gcc toolchain: gcc-linaro-arm-linux-gnueabihf-raspbian-4.8-2014.03_linux
+
+ -- popcornmix <popcornmix@gmail.com>  Wed, 2 Apr 2014 21:46:09 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-3p7) uecide; urgency=low
+
+  * Added readme
+
+ -- Gordon Hollingworth <gordon@raspberrypi.org>  Mon, 24 Mar 2014 12:16:35 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-3p6) uecide; urgency=low
+
+  * Added functionality to boot BCM2835 over the USB
+
+ -- Gordon Hollingworth <gordon@raspberrypi.org>  Mon, 24 Mar 2014 12:15:07 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-3p5) uecide; urgency=low
+
+  * arm-linux-gnueabihf-gcc: Add missing object files See: https://github.com/raspberrypi/tools/issues/12
+
+ -- popcornmix <popcornmix@gmail.com>  Tue, 18 Feb 2014 18:29:48 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-3p4) uecide; urgency=low
+
+  * Update linaro gcc toolchain to: gcc-linaro-arm-linux-gnueabihf-raspbian-4.8-2014.01_linux
+
+ -- popcornmix <popcornmix@gmail.com>  Fri, 31 Jan 2014 12:58:17 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-3p3) uecide; urgency=low
+
+  * Add latest linaro gcc toolchain: gcc-linaro-arm-linux-gnueabihf-raspbian-2012.08-20120724_linux
+
+ -- popcornmix <popcornmix@gmail.com>  Wed, 29 Aug 2012 23:44:59 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-3p2) uecide; urgency=low
+
+  * Add configs and ct-ng version
+
+ -- popcornmix <popcornmix@gmail.com>  Thu, 23 Aug 2012 11:58:20 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-3p1) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:raspberrypi/tools
+
+ -- popcornmix <popcornmix@gmail.com>  Thu, 9 Aug 2012 17:57:39 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-3p0) uecide; urgency=low
+
+  * Rebuild with CT_KERNEL_VERSION=3.1.9
+
+ -- popcornmix <popcornmix@gmail.com>  Thu, 9 Aug 2012 17:56:03 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p9) uecide; urgency=low
+
+  * regular refresh of scripts
+
+ -- Gray Girling <GrayG@Broadcom.com>  Wed, 25 Jul 2012 16:44:06 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p8) uecide; urgency=low
+
+  * Rebuild toolchains with glibc 2.13 to match Wheezy image
+
+ -- popcornmix <popcornmix@gmail.com>  Mon, 23 Jul 2012 17:21:01 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p7) uecide; urgency=low
+
+  * Switch to 32-bit versions of gcc 4.7.1 for softfp and hardfp
+
+ -- popcornmix <popcornmix@gmail.com>  Sun, 22 Jul 2012 00:00:57 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p6) uecide; urgency=low
+
+  * Update packages and allow uninstallation in sysidk
+
+ -- Gray Girling <GrayG@Broadcom.com>  Thu, 19 Jul 2012 13:19:25 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p5) uecide; urgency=low
+
+  * refresh
+
+ -- Gray Girling <GrayG@Broadcom.com>  Tue, 22 May 2012 18:38:16 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p4) uecide; urgency=low
+
+  * sysidk: added installer sysidk
+
+ -- Gray Girling <GrayG@Broadcom.com>  Mon, 21 May 2012 16:05:47 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p3) uecide; urgency=low
+
+  * sysidk: system image development kit initial draft
+
+ -- Gray Girling <GrayG@Broadcom.com>  Mon, 21 May 2012 10:12:22 +0100
+
+arm-linux-gnueabihf-gcc (4.8.3-2p2) uecide; urgency=low
+
+  * Add 64 bit hardfp toolchain
+
+ -- popcornmix <popcornmix@gmail.com>  Fri, 3 Feb 2012 18:45:41 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-2p1) uecide; urgency=low
+
+  * Initial add of R-Pi toolchain
+
+ -- popcornmix <popcornmix@gmail.com>  Wed, 1 Feb 2012 22:41:38 +0000
+
+arm-linux-gnueabihf-gcc (4.8.3-2p0) uecide; urgency=low
+
+  * add tool to produce kernel.img
+
+ -- Dom Cobley <dc4@broadcom.com>  Wed, 1 Feb 2012 22:32:27 +0000
+

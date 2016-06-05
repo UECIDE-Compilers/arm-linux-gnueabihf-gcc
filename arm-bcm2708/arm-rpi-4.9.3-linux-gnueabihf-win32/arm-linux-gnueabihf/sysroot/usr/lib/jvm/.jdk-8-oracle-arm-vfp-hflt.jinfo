@@ -1,0 +1,36 @@
+name=jdk-8-oracle-arm-vfp-hflt
+priority=318
+section=main
+hl java /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/java
+hl keytool /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/keytool
+hl orbd /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/orbd
+hl pack200 /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/pack200
+hl rmid /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/rmid
+hl rmiregistry /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/rmiregistry
+hl servertool /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/servertool
+hl tnameserv /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/tnameserv
+hl unpack200 /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/unpack200
+hl policytool /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/policytool
+jre policytool /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/bin/policytool
+hl jexec /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/jre/lib/jexec
+jdk appletviewer /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/appletviewer
+jdk extcheck /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/extcheck
+jdk idlj /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/idlj
+jdk jar /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jar
+jdk jarsigner /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jarsigner
+jdk javac /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/javac
+jdk javadoc /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/javadoc
+jdk javah /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/javah
+jdk javap /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/javap
+jdk jconsole /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jconsole
+jdk jdb /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jdb
+jdk jinfo /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jinfo
+jdk jmap /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jmap
+jdk jps /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jps
+jdk jsadebugd /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jsadebugd
+jdk jstack /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jstack
+jdk jstat /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jstat
+jdk jstatd /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/jstatd
+jdk native2ascii /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/native2ascii
+jdk rmic /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/rmic
+jdk serialver /usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/bin/serialver

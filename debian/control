@@ -1,0 +1,16 @@
+Source: arm-linux-gnueabihf-gcc
+Section: compilers
+Priority: extra
+XBSC-Family: arm
+Maintainer: Matt Jenkins <matt@unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/pic32-tools.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/pic32-tools.git;a=summary
+
+Package: arm-linux-gnueabihf-gcc
+Architecture: any
+XBSC-Group: ARM
+Depends: 
+Description: ARM cross-compiler for Raspberry Pi etc
